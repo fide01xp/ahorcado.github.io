@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado</title>
+</head>
+<body>
+    <section id="pantalla-inicio">
+       <h1>Juego de Ahorcado</h1><br><br>
+       <button id="inicio-juego">INICIAR JUEGO</button><br><br><br>
+       <input id="palabra"  placeholder="Ingrese palabra en MAYÚSCULAS" onkeypress="return checarLetras(event)" /><br><br>
+       <button id="agregar-palabra">AGREGAR PALABRA</button>
+    </section> 
+    <canvas id="ahorcado" width="1500" height="550"></canvas><br><br>
+    <section id="juego">
+       <label id="titulo-texto" for="ingreso">Ingrese una letra</label>  
+       <input id="ingreso" maxlength="1" placeholder="letra" onkeypress="return checarLetras(event)" />
+       <button id="captura">ingreso</button>
+    </section> 
+    <center><button id="volver">VOLVER</button> </center> 
+    <script src="canvas.js"></script>
+    <script src="ahorcado.js"></script>
+</body>
+<footer>
+    Derechos reservados &copy; 2022 <br>
+    Diseño: FIDEL BRAVO<br>
+    Email:none01xp@gmail.com.mx
+</footer>
+</html> 

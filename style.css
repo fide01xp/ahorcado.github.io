@@ -1,0 +1,96 @@
+body{
+
+   background-color: lightgrey;
+
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    color:blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 9px 15px 37px;
+}
+label{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(77, 141, 77);
+    text-shadow: 9px 15px 37px;
+}
+#inicio-juego{
+    background-color: blue;
+    color: white;
+    text-shadow: darkblue;
+    border-radius: 5px;
+    text-align: center;
+    padding:20px;
+    box-shadow: black;
+}
+#inicio-juego:hover{ /* Estilo que se activa al pasar el puntero sobre el boton */
+    background-color: blue;
+    font-size: 22px;
+    border: groove 4px lightblue;
+}
+#agregar-palabra{
+    background-color: blue;
+    color: white;
+    text-shadow: darkblue;
+    border-radius: 5px;
+    text-align: center;
+    padding:20px;
+    box-shadow: black;
+}
+#agregar-palabra:hover{ /* Estilo que se activa al pasar el puntero sobre el boton */
+    background-color: blue;
+    font-size: 22px;
+    border: groove 4px lightblue;
+}
+#pantalla-inicio{
+    text-align: center;
+}
+#palabra{
+    padding: 30px;
+    border-radius: 10px;
+}
+#juego{
+   text-align: center;
+}
+#ingreso{
+    padding: 15px;
+    height: 40px;
+    width: 20px;
+    border-radius: 10px;
+}  
+#captura{
+    background-color: rgb(16, 7, 141);
+    color: rgb(180, 206, 180);
+    text-shadow: darkblue;
+    border-radius: 5px;
+    text-align: center;
+    padding: 7px;
+} 
+#captura:hover{ /* Estilo que se activa al pasar el puntero sobre el boton */
+    background-color: blue;
+    font-size: 22px;
+    border: groove 4px lightblue;
+}
+#volver{
+    background-color: blue;
+    color: white;
+    text-shadow: darkblue;
+    border-radius: 5px;
+    text-align: center;
+    padding:20px;
+    box-shadow: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+#volver:hover{ /* Estilo que se activa al pasar el puntero sobre el boton */
+    background-color: blue;
+    font-size: 22px;
+    border: groove 4px lightblue;
+}
+footer{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: darkblue;
+} 
